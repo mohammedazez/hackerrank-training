@@ -1,6 +1,6 @@
 package main
 
-func compareTriplets(a []int32, b []int32) []int32 {
+func CompareTriplets(a []int32, b []int32) []int32 {
 
 	var temp1 []int32
 	var temp2 []int32

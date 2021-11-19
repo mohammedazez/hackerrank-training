@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func aVeryBigSum(ar []int64) int64 {
+func AveryBigSum(ar []int64) int64 {
 	var sum int64
 
 	// fmt.Println(ar)

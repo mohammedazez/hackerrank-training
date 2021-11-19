@@ -1,6 +1,11 @@
 package main
 
+import "fmt"
+
 func main() {
+
+	// test
+	// Test()
 
 	// solve me first
 	// var a, b, res uint32
@@ -13,6 +18,15 @@ func main() {
 	// fmt.Println(simpleArraySum(primes))
 
 	// A Very Big Sum
-	number := []int64{1000000001, 1000000002, 1000000003, 1000000004, 1000000005}
-	aVeryBigSum(number)
+	// number := []int64{1000000001, 1000000002, 1000000003, 1000000004, 1000000005}
+	// aVeryBigSum(number)
+
+	// Compare The Triplets
+	// alice := []int32{5, 6, 7}
+	// boby := []int32{3, 6, 10}
+	alice1 := []int32{17, 28, 30}
+	boby1 := []int32{99, 16, 8}
+	// fmt.Println(alice)
+	// fmt.Println("var1 = ", reflect.ValueOf(alice).Kind())
+	fmt.Println(compareTriplets(alice1, boby1))
 }

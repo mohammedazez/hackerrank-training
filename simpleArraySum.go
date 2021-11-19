@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func simpleArraySum(ar []int32) int32 {
+func SimpleArraySum(ar []int32) int32 {
 	// Write your code here
 	var sum int32
 

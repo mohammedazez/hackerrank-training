@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 
 	// test
@@ -35,6 +37,18 @@ func main() {
 	// DiagonalDifference(a)
 
 	// Plus Minus
-	arr := []int32{-4, 3, -9, 0, 4, 1}
-	PlusMinus(arr)
+	// arr := []int32{-4, 3, -9, 0, 4, 1}
+	// PlusMinus(arr)
+
+	// Mini max sum
+	// arr := []int32{1, 2, 3, 4, 5}
+	// MiniMaxSum(arr)
+
+	// warmup
+	// staircase(6)
+
+	// timeConversion
+	s := "06:40:03AM"
+	fmt.Println(TimeConversion(s))
+
 }

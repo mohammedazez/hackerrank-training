@@ -1,4 +1,4 @@
-package main
+package basic
 
 func CompareTriplets(a []int32, b []int32) []int32 {
 

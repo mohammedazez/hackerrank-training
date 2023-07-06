@@ -1,3 +1,3 @@
 module hackerrank-training
 
-go 1.13
+go 1.19

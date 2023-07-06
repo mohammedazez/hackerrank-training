@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"hackerrank-training/basic"
+)
 
 func main() {
 
@@ -37,18 +40,26 @@ func main() {
 	// DiagonalDifference(a)
 
 	// Plus Minus
-	// arr := []int32{-4, 3, -9, 0, 4, 1}
-	// PlusMinus(arr)
+	// arr := []int32{1, 1, 0, -1, -1}
+	// basic.PlusMinus(arr)
 
 	// Mini max sum
 	// arr := []int32{1, 2, 3, 4, 5}
-	// MiniMaxSum(arr)
+	// basic.MiniMaxSum(arr)
 
 	// warmup
 	// staircase(6)
 
 	// timeConversion
-	s := "06:40:03AM"
-	fmt.Println(TimeConversion(s))
+
+	// 12:00 am -> 00:00
+	// 01:00 - 12:00 am -> keep just remove am
+	// 01:00 - 11:00 pm -> sum to 12
+	// a := "12:00:00AM"
+	// b := "01:00:00AM"
+	c := "12:45:54PM"
+	// fmt.Println((basic.TimeConversion(a)))
+	// basic.TimeConversion(b)
+	fmt.Println((basic.TimeConversion(c)))
 
 }
